@@ -3,8 +3,6 @@ library
         ".,vorbis"
 }
 
-define OV_EXCLUDE_STATIC_CALLBACKS
-
 includepath include
 
 files
@@ -13,8 +11,4 @@ files
   (include)
   vorbis/vorbisfile.h
   speex/speex_resampler.h
-
-  []
-  (.)
-  vorbis.defines.txt
 }
