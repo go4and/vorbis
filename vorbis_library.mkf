@@ -1,0 +1,20 @@
+library
+{
+        ".,vorbis"
+}
+
+define OV_EXCLUDE_STATIC_CALLBACKS
+
+includepath include
+
+files
+{
+  [include]
+  (include)
+  vorbis/vorbisfile.h
+  speex/speex_resampler.h
+
+  []
+  (.)
+  vorbis.defines.txt
+}

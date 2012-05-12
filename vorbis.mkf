@@ -1,0 +1,19 @@
+includepath include
+
+files
+{
+    ["libvorbis"]
+    (source/libvorbis)
+    backends.h       codebook.cpp     envelope.h       info.c           lsp.c            mdct.cpp         psy.cpp          res0.cpp         smallft.h        window.h
+    bitrate.c        codebook.h       floor0.c         lookup.h         lsp.h            mdct.h           psy.h            scales.h         synthesis.c
+    bitrate.h        codec_internal.h floor1.c         lpc.c            mapping0.cpp     misc.h           registry.c       sharedbook.cpp   vorbisfile.c
+    block.c          envelope.c       highlevel.h      lpc.h            masking.h        os.h             registry.h       smallft.c        window.c
+
+    ["libogg"]
+    (source/libogg)
+    bitwise.c framing.c
+
+    ["speex_resampler"]
+    (source/speex)
+    resample.cpp
+}
